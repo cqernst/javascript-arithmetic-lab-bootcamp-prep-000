@@ -14,6 +14,10 @@ function inc(n) {
   n += 1;
   return n
 }
+function dec(n) {
+  n -= 1;
+  return n
+}
 // it('inc(n) increments n and returns the result', function() {
 //   expect(inc(a)).toEqual(a + 1)
 // })
