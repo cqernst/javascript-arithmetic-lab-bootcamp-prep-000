@@ -11,8 +11,7 @@ function divide(g, h) {
   return g/h
 }
 function inc(n) {
-  n = n + 1;
-  return n 
+  n +=1
 }
 // it('inc(n) increments n and returns the result', function() {
 //   expect(inc(a)).toEqual(a + 1)
