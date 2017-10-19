@@ -18,6 +18,12 @@ function dec(n) {
   n -= 1;
   return n
 }
+function makeInt(n) {
+  return parseInt(n, 10)
+}
+function preserveDecimal(n) {
+  return parseFloat(n)
+}
 // it('inc(n) increments n and returns the result', function() {
 //   expect(inc(a)).toEqual(a + 1)
 // })
